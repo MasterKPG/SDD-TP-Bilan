@@ -47,12 +47,17 @@ Ce programme démontre l'implémentation d'une liste chaînée simple en C avec 
 
 Avec GCC :
 ```bash
-gcc -o liste liste.c
+gcc -Wall -Wextra -o liste liste.c
+```
+
+Avec des options de débogage :
+```bash
+gcc -Wall -Wextra -g -o liste liste.c
 ```
 
 Ou avec MinGW sous Windows :
 ```bash
-gcc -o liste.exe liste.c
+gcc -Wall -Wextra -o liste.exe liste.c
 ```
 
 ### Exécution
@@ -86,7 +91,7 @@ Ce projet illustre :
 
 ## 📚 Prérequis
 
-- Compilateur C (GCC, Clang, MinGW, etc.)
+- Compilateur C (GCC, Clang, MinGW, etc.) compatible C99 ou supérieur
 - Connaissance de base en C
 - Compréhension des pointeurs et de l'allocation dynamique
 
